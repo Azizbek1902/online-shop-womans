@@ -1,0 +1,288 @@
+export const filter = [
+  {
+    title: "Shirinliklar",
+    _id: 1,
+  },
+  {
+    title: "Pishiriqlar",
+    _id: 2,
+  },
+  {
+    title: "Kiyimlar",
+    _id: 3,
+  },
+  {
+    title: "To'qimachilik",
+    _id: 4,
+  },
+];
+
+export const likes = [
+  {
+    img: "https://zira.uz/wp-content/uploads/2018/02/pahlava-1-400x400.jpg",
+    title: "Hammaga bir dek yoqadigan pahlavalar",
+    price: "45.000",
+    category: 1,
+  },
+  {
+    img: "https://sun1-26.userapi.com/s/v1/if1/h0gYN_fKOOg1PAZjzyd_0HYLw83ps5oIGchxtypNg_kPxtKwhAjSsOS6gzQ6W90b8CqlFm5q.jpg?size=400x400&quality=96&crop=2,3,1074,1074&ava=1",
+    title: `Qizlar va kelinlar uchun`,
+    price: "85.000",
+    category: 3,
+  },
+  {
+    img: "https://sun9-49.userapi.com/impg/g9p8tSXdZMGOnXG6YnJMvkRwclfcLacgyza4dA/gQaSHWDvWnU.jpg?size=400x400&quality=96&sign=066b545d9ff3a209d59abd937e0d707c&c_uniq_tag=qEB8cc3Al3DmccbMi2rEEHZc5kRPOMDUr__lywASCCU&type=album",
+    title: `To'qilgan sharflar`,
+    price: "41.000",
+    category: 4,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2019/03/somsa-artel-400x400.jpg",
+    title: `"Bedana oyoqlachali" somsasi`,
+    price: "34.000",
+    category: 2,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2020/10/karamelnyy-pirog-s-yablokami-400x400.jpg",
+    title: "Turkcha somsa",
+    price: "50.000",
+    category: 1,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2019/12/syr-v-lavashe-4-400x400.jpg",
+    title: `Motsarella pishlog'i va tovuqli kabobchalar`,
+    price: "29.000",
+    category: 2,
+  },
+  {
+    img: "https://sun1-55.userapi.com/s/v1/if1/qQ7p_9yg7TclqFx6HlJTBPSO-wPtuRLNda7-iLguyuuxNk7IA2PyacUZMIwcomwHdEyd4CP1.jpg?size=400x0&quality=96&crop=0,0,984,984&ava=1",
+    title: `Bahorgi va kuzgu kiyimlar`,
+    price: "65.000",
+    category: 3,
+  },
+  {
+    img: "https://i.pinimg.com/474x/ba/d7/55/bad7558ff135428ee0e9e0117163b74f.jpg?nii=t",
+    title: `To'qilgan savatlar`,
+    price: "65.000",
+    category: 4,
+  },
+  {
+    img: "https://sun1-27.userapi.com/s/v1/if1/ZFtbRnAUMTDPzBcFsxsx9qrMu4ahw7lM2susigiazPxYQRAsMQRWdWP0GXqoDPcVASMznQ7F.jpg?size=400x400&quality=96&crop=3,0,549,549&ava=1",
+    title: `Qizlar uchun yozgi va bahorgi`,
+    price: "59.000",
+    category: 3,
+  },
+  {
+    img: "https://sun1-18.userapi.com/s/v1/if2/07C1nQ443VIn6C5VEUSg8rr6ETruKRck0fyDh_6pld3fGRPexJwo8RArQa9svD9Ba89vxyG4AQB9ac_K2oP73YNe.jpg?size=400x400&quality=96&crop=0,0,640,640&ava=1",
+    title: `Yozda kiygani qizlar uchun`,
+    price: "79.000",
+    category: 3,
+  },
+];
+
+export const cards = [
+  {
+    img: "https://zira.uz/wp-content/uploads/2018/02/pahlava-1-400x400.jpg",
+    title: "Hammaga bir dek yoqadigan pahlavalar",
+    price: "45.000",
+    category: 1,
+  },
+  {
+    img: "https://sun6-22.userapi.com/impg/2jV_SsTNSRPgYFFRaIio0jn-Cq8ONFagYiQuBA/PggSJsmwGlg.jpg?size=400x0&crop=0,0.035,0.976,0.682&quality=95&sign=9e16557490fe5f0378f5abc588055b8f&c_uniq_tag=eKVy2vgIcQufm7utVzavpACO1TRnOjMcUI5fQ0nRrE4",
+    title: `To'qilgan jemfir`,
+    price: "65.000",
+    category: 4,
+  },
+  {
+    img: "https://sun9-49.userapi.com/impg/g9p8tSXdZMGOnXG6YnJMvkRwclfcLacgyza4dA/gQaSHWDvWnU.jpg?size=400x400&quality=96&sign=066b545d9ff3a209d59abd937e0d707c&c_uniq_tag=qEB8cc3Al3DmccbMi2rEEHZc5kRPOMDUr__lywASCCU&type=album",
+    title: `To'qilgan sharflar`,
+    price: "41.000",
+    category: 4,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2020/10/karamelnyy-pirog-s-yablokami-400x400.jpg",
+    title: "Turkcha somsa",
+    price: "50.000",
+    category: 1,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2018/10/pp-korolevskaya-vatrushka-5-400x400.jpg",
+    title: "Parhezbop vartushka",
+    price: "48.000",
+    category: 1,
+  },
+  {
+    img: "https://sun1-22.userapi.com/s/v1/if1/utZkknJxZHKrj1__TnybYv9F4iIsZUkmohIn-NBA1fat7Y41MJUQy3SyTb4jr1Xc-IMoriom.jpg?size=400x400&quality=96&crop=12,0,695,695&ava=1",
+    title: `Yangi kelinlar uchun`,
+    price: "139.000",
+    category: 3,
+  },
+  {
+    img: "https://i.pinimg.com/736x/78/16/e4/7816e42a35a3c38d9f18cf677760121b.jpg",
+    title: `Xijobli qizlar uchun`,
+    price: "149.000",
+    category: 3,
+  },
+  {
+    img: "https://sun1-26.userapi.com/s/v1/if1/h0gYN_fKOOg1PAZjzyd_0HYLw83ps5oIGchxtypNg_kPxtKwhAjSsOS6gzQ6W90b8CqlFm5q.jpg?size=400x400&quality=96&crop=2,3,1074,1074&ava=1",
+    title: `Qizlar va kelinlar uchun`,
+    price: "85.000",
+    category: 3,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2023/10/limonnye-bulochki-400x400.jpg",
+    title: "Bananli toblatma",
+    price: "42.000",
+    category: 1,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2023/05/bulochki-s-abrikosami-400x400.jpg",
+    title: "Kartoshka va kolbasali salat",
+    price: "37.000",
+    category: 1,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2021/01/pirog-_zimnyaya-vishnya_-400x400.jpg",
+    title: `"Bedana oyoqlachali" somsasi`,
+    price: "44.000",
+    category: 1,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2019/03/somsa-artel-400x400.jpg",
+    title: `"Bedana oyoqlachali" somsasi`,
+    price: "34.000",
+    category: 2,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2020/01/tefteli_s_syrom_v_tomatnom_souse-400x400.jpg",
+    title: `Pishloqli teftellar`,
+    price: "40.000",
+    category: 2,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2019/03/nagetsi-4-400x400.jpg",
+    title: `Tovuqli naggetslar`,
+    price: "52.000",
+    category: 2,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2019/08/zapechennie-kurinie-ruleti-4-400x400.jpg",
+    title: `Pechda pishirilgan tovuqli ruletlar`,
+    price: "69.000",
+    category: 2,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2019/02/pirog-s-tuncom-3-400x400.jpg",
+    title: `Tunets balig'i va ismaloq solib pishirilgan kish`,
+    price: "49.000",
+    category: 2,
+  },
+  {
+    img: "https://pp.userapi.com/c840637/v840637057/381e3/y3QVLMAhUko.jpg",
+    title: `Qizlar va kelinchaklarga`,
+    price: "77.000",
+    category: 3,
+  },
+  {
+    img: "https://sun1-15.userapi.com/s/v1/if1/N0ng2gWiwxttGtSomQfCeqVRAP0WGqtY-McPNELXVjsMIvaeYlWV2o6MGoxTK30n_YPXM9Za.jpg?size=400x400&quality=96&crop=4,0,591,591&ava=1",
+    title: `Kelinchalar uchun`,
+    price: "119.000",
+    category: 3,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2021/01/pirog-_zimnyaya-vishnya_-400x400.jpg",
+    title: `"Kun va tun" pechenyesi`,
+    price: "25.000",
+    category: 2,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2018/12/somsa-maselko-6-1-400x400.jpg",
+    title: `Qatlamali somsa`,
+    price: "7.000",
+    category: 2,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2019/12/syr-v-lavashe-4-400x400.jpg",
+    title: `Motsarella pishlog'i va tovuqli kabobchalar`,
+    price: "29.000",
+    category: 2,
+  },
+  {
+    img: "https://sun1-55.userapi.com/s/v1/if1/qQ7p_9yg7TclqFx6HlJTBPSO-wPtuRLNda7-iLguyuuxNk7IA2PyacUZMIwcomwHdEyd4CP1.jpg?size=400x0&quality=96&crop=0,0,984,984&ava=1",
+    title: `Bahorgi va kuzgu kiyimlar`,
+    price: "65.000",
+    category: 3,
+  },
+  {
+    img: "https://i.pinimg.com/474x/ba/d7/55/bad7558ff135428ee0e9e0117163b74f.jpg?nii=t",
+    title: `To'qilgan savatlar`,
+    price: "65.000",
+    category: 4,
+  },
+  {
+    img: "https://sun1-27.userapi.com/s/v1/if1/ZFtbRnAUMTDPzBcFsxsx9qrMu4ahw7lM2susigiazPxYQRAsMQRWdWP0GXqoDPcVASMznQ7F.jpg?size=400x400&quality=96&crop=3,0,549,549&ava=1",
+    title: `Qizlar uchun yozgi va bahorgi`,
+    price: "59.000",
+    category: 3,
+  },
+  {
+    img: "https://sun1-18.userapi.com/s/v1/if2/07C1nQ443VIn6C5VEUSg8rr6ETruKRck0fyDh_6pld3fGRPexJwo8RArQa9svD9Ba89vxyG4AQB9ac_K2oP73YNe.jpg?size=400x400&quality=96&crop=0,0,640,640&ava=1",
+    title: `Yozda kiygani qizlar uchun`,
+    price: "79.000",
+    category: 3,
+  },
+  {
+    img: "https://sun9-76.userapi.com/s/v1/if1/_28cpXTp1cyMQdOYV6qto2x197fNqIQA-Dz9EKx2RFdaJ6IRoe7v_ixwyn-MdKeOj3MXhrzr.jpg?size=400x400&quality=96&crop=1,207,718,718&ava=1",
+    title: `Uyga va ko'chaga kiyish uchun`,
+    price: "90.000",
+    category: 3,
+  },
+  {
+    img: "https://img14.360buyimg.com/ecps/s400x400_jfs/t1/61500/31/12830/78659/5da0597bE540b2ad2/1cabc51d1bd0752f.jpg",
+    title: `Yengil jemfirlar`,
+    price: "99.000",
+    category: 4,
+  },
+  {
+    img: "https://img10.360buyimg.com/ecps/s400x400_jfs/t1/2667/17/14689/344676/5bdc1897Eeef54c2c/22eba6dcc639905d.jpg",
+    title: `To'qilgan sumkalar`,
+    price: "77.000",
+    category: 4,
+  },
+  {
+    img: "https://i.pinimg.com/736x/7b/7f/3f/7b7f3fc639cbf1f0fb91379fa86a139b.jpg",
+    title: `Kattaroq sharf`,
+    price: "75.000",
+    category: 4,
+  },
+  {
+    img: "https://sun1-99.userapi.com/s/v1/if1/scvVidwyIkVCmQUMJGrEG5TZqrq3Ssr8BR9Eu_grfDm6V1yCe4oL2sVud88Hq-Q4UiBxJ-MI.jpg?size=400x400&quality=96&crop=0,0,640,640&ava=1",
+    title: `Yangi kelinlar uchun`,
+    price: "129.000",
+    category: 3,
+  },
+  {
+    img: "https://www.ruskniga.com/media/catalog/product/cache/3ebbaaeaf7cde682e7e75e4a45011f62/c/o/color_brown.jpg",
+    title: `Bejirim sumkala qizlaga`,
+    price: "45.000",
+    category: 4,
+  },
+  {
+    img: "https://i.pinimg.com/736x/06/b6/a0/06b6a0619680de60acecbd2f378e902e.jpg",
+    title: `Sochiqcha`,
+    price: "24.000",
+    category: 4,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2023/03/bulochki-s-shokoladnoy-pastoy-4-400x400.jpg",
+    title: "Pechda pishirilgan Berliner ponchiklari",
+    price: "60.000",
+    category: 1,
+  },
+  {
+    img: "https://zira.uz/wp-content/uploads/2022/11/tvorozhnye-pirozhki-s-yablokami-1-400x400.jpg",
+    title: "Turshakli pechenyelar",
+    price: "28.000",
+    category: 1,
+  },
+];
